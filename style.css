@@ -52,4 +52,67 @@ nav a:hover {
 }
 
 p {
+    font-size: 24px;
+    color: #000;
 }
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    width: 70%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 140px;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 16px;
+    }
+    
+ .card {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .card p,
+    p {
+        font-size: 18px;
+    }
+}
+
+    
+
+    
+
+
+
+
+
+
+

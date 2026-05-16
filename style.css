@@ -22,6 +22,12 @@ body.contact-page {
     background-image: url('contact.jpg');
 }
 
+.overlay {
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px 20px;
+}
+
 
 
 h1 {
